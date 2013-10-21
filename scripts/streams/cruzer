@@ -1,0 +1,4 @@
+#!/bin/bash
+
+livestreamer --player mplayer twitch.tv/cruzerthebruzer source
+

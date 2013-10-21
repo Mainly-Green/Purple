@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+
+livestreamer --player /usr/bin/mplayer http://www.twitch.tv/onebadbrad source

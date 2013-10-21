@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+livestreamer --player /usr/bin/mplayer twitch.tv/tsm_dyrus source
+

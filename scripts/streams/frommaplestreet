@@ -1,0 +1,3 @@
+#!/bin/bash
+
+livestreamer --player /usr/bin/mplayer twitch.tv/frommaplestreet source

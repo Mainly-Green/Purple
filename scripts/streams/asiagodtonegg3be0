@@ -1,0 +1,3 @@
+#!/bin/bash
+
+livestreamer --player mplayer http://www.twitch.tv/asiagodtonegg3be0 source
