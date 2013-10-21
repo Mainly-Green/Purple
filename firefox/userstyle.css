@@ -1,0 +1,120 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+
+#appmenu-button,
+#appmenu-toolbar-button,
+#feed-button,
+#go-button,
+#star-button,
+#identity-box,
+.autocomplete-history-dropmarker,
+.scrollbutton-up,
+.scrollbutton-down,
+.tab-close-button,
+.tabbrowser-tab .tab-icon-image
+	{display:none!important}
+.tabbrowser-tab[label="New Tab"]:not([blah]) label
+	{color:transparent!important; text-shadow:none!important}
+
+/*spacing and transparency*/
+#navigator-toolbox toolbar,
+.tabbrowser-tab:not([selected="true"])
+	{background:transparent!important}
+.tabbrowser-tab
+	{text-align:center!important;
+	margin: -3px 0 0 !important;
+	padding: 0 6px !important;
+	border:none!important}
+
+
+
+.tabs-newtab-button {
+  width: 26px !important;
+  margin-top: 3px !important;
+  margin-bottom: 3px !important;
+  margin-left: 1px !important;
+  margin-right: 1px !important;
+  background-color: #D1B3EA !important;
+  background-image: -moz-linear-gradient(rgba(209,179,234,100), rgba(209,179,234,100)),
+                    -moz-linear-gradient(transparent, rgba(209,179,234,100) 100%),
+                    -moz-linear-gradient(transparent, rgba(209,179,234,100) 100%) !important;
+  border: 1px solid #AA08FF !important;
+  border-radius: 0 !important;
+}
+
+.tabs-newtab-button:hover {
+  background-color: #DDCCEB !important;
+  background-image: -moz-linear-gradient(rgba(221,204,235,100), rgba(221,204,235,100)),
+                    -moz-linear-gradient(transparent, rgba(221,204,235,100) 100%),
+                    -moz-linear-gradient(transparent, rgba(221,204,235,100) 100%) !important; 
+}
+
+.tabbrowser-tab:not([pinned]) 
+{	
+    /*margin-left: none !important;
+    margin-right: none !important;	*/
+    border: none !important;
+    border-bottom: none !important;
+    height: 26px !important;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+
+}
+
+.tabbrowser-tab[pinned]
+{	
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+    border: none !important; 
+    min-height: 19px !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+.tabbrowser-tab[selected]
+{
+    background-color: #ffffff !important;
+    background-image: -moz-linear-gradient(rgba(255,255,255,100), rgba(255,255,255,100)),
+                    -moz-linear-gradient(transparent, rgba(255,255,255,100) 100%),
+                    -moz-linear-gradient(transparent, rgba(255,255,255,100) 100%) !important;
+    border: 1px solid #AA08FF !important;
+    border-bottom: none !important; 
+    border-radius: 0 !important;
+}
+    
+.tabbrowser-tab:not([selected])
+{
+    background-color: #D1B3EA !important;
+    background-image: -moz-linear-gradient(rgba(209,179,234,100), rgba(209,179,234,100)),
+                    -moz-linear-gradient(transparent, rgba(209,179,234,100) 100%),
+                    -moz-linear-gradient(transparent, rgba(209,179,234,100) 100%) !important;
+    border: 1px solid #AA08FF !important;
+    border-bottom: 1px solid #908C8B !important;
+    border-radius: 0 !important;
+}
+.tabbrowser-tab:not([selected]):hover{
+    background-color: #DDCCEB !important;
+    background-image: -moz-linear-gradient(rgba(221,204,235,100), rgba(221,204,235,100)),
+                    -moz-linear-gradient(transparent, rgba(221,204,235,100) 100%),
+                    -moz-linear-gradient(transparent, rgba(221,204,235,100) 100%) !important;
+    border: 1px solid #AA08FF !important;
+    border-bottom: 1px solid #908C8B !important;
+    border-radius: 0 !important;
+}
+.ac-comment {
+   color: #FFFFFF !important;
+ }
+.ac-url-text
+{
+    color: #FFFFFF !important;
+}
+.ac-action-text
+{
+    color: #FFFFFF !important;
+}
+#urlbar
+	{background:transparent!important;
+	text-align:center!important;
+	margin: -3px -9px 0 0 !important;
+	border:none!important}
+
